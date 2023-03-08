@@ -1,0 +1,42 @@
+
+h1{
+    line-height: 60px; /* tamaño de la altura de cada línea */
+    letter-spacing: 3px; /* tamaño del espacio entre cada letra */
+    word-spacing: 5px; /* tamaño del espacio entre cada palabra */
+    text-indent: 200px; /* tamaño del margen de la primera línea del texto */
+    font-size: 100px;
+}
+
+button{
+    color: black;
+    background-color:white;
+    position: absolute;
+    height: 10%;
+    width: 10%;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 80px;
+    
+    margin-left: 50%;
+    transform: translateX(-50%);
+
+}
+container.primero {
+    color: brown;
+    background-color: black;
+    font-family: "Helvetica", "Lucida Grande", sans-serif; /* Modificacion fuente del texto del body*/
+}
+
+container.segundo {
+    color:white;
+    background-color: black;
+    font-family: "Helvetica", "Lucida Grande", sans-serif; /* Modificacion fuente del texto del body*/
+    margin-top: 200px;
+}
+    
+    /*position: absolute;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;*/
+    
+
+

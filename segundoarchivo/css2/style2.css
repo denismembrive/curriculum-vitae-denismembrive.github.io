@@ -1,0 +1,135 @@
+h1{
+    line-height: 60px; /* tamaño de la altura de cada línea */
+    letter-spacing: 3px; /* tamaño del espacio entre cada letra */
+    word-spacing: 5px; /* tamaño del espacio entre cada palabra */
+    text-indent: 200px; /* tamaño del margen de la primera línea del texto */
+    font-size: 24px;
+    margin-left: 180px;
+    margin-top: 50px;
+    font-family: "Raleway";
+}
+
+h3{
+    margin-left: 25px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+.a1{
+    background-color: black;
+    color: white;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    margin-top: 300px;
+    
+    
+
+}
+.a2{
+    margin-top:-260px;
+    margin-left: 300px;
+}
+.a3{
+    margin-top:120px;
+    margin-left: 800px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+
+
+}
+
+
+.b{
+    margin-top: 100px;
+    margin-left: 200px;
+}
+
+.c{
+    margin-top: -100px;
+    margin-left: 500px;
+}
+
+.d{
+    margin-top: -110px;
+    margin-left: 800px;
+}
+
+.e{
+    margin-top: -100px;
+    margin-left: 1100px;
+}
+
+.p1{
+
+    align-items: center;
+    display: flex;
+    height: 100px;
+    width: 250px;
+    margin-top: 0px;
+    margin-left: 140px;
+    justify-content: center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+
+    
+}
+
+.p2{
+
+    align-items: center;
+    display: flex;
+    height: 100px;
+    width: 250px;
+    margin-top: -93px;
+    margin-left: 450px;
+    justify-content: center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+
+    
+}
+
+.p3{
+    align-items: center;
+    display: flex;
+    height: 100px;
+    width: 250px;
+    margin-top: -110px;
+    margin-left: 760px;
+    justify-content: center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+
+}
+.p4{
+    align-items: center;
+    display: flex;
+    height: 100px;
+    width: 250px;
+    margin-top: -100px;
+    margin-left: 1030px;
+    justify-content: center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+
+}
+
+.btn{
+    text-decoration:none;
+    
+    color:#ffffff;
+    padding-top:20px;
+    padding-bottom:20px;
+    padding-left:40px;
+    padding-right:40px;
+    background-color:black;
+}
+
+.btnlink{
+    margin-top: -20px;
+    margin-left: 823px;
+    
+
+}
+
+.h6a{
+    color: grey;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 250px;
+    margin-left: 660px;
+}
