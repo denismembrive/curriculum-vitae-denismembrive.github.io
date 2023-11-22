@@ -4,41 +4,205 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Hello,Hello, I'm Denis Membrive. I'm developer.">
-   
     <title>Denis Membrive</title>
-    <link rel="stylesheet" href="Css/style.css">
-    <link rel="shortcut icon" type="image/x-icon" href="Css/icons8-idea-64.png">
+    <link rel="icon" type="image/png" href="/images/D.svg">
+    <link rel="stylesheet" href="css/estilos.css">
 </head>
 <body>
-   <section class="home">
-        <div class="in-flex">
-            <div class="primero">
-                <h1 style="color:brown;">Hello.</h1>
-                <h1>I'm Denis.</h1>
-                <h1>I'm Developer.</h1>
-                
-                <button type="button"
-                    onclick="location.href= 'segundoarchivo/cv.html'">
-                    LOOK AT MY CV
-                </button>
-            
-                <p id="demo"></p>
-                
-                <script src="js/script.js"></script>
-                
-                </div>
-                <div class="segundo">
-                
-                </div>
+    
+    <header>
 
+        <div class="container__menu">
+            <div class="logo">
+                <img src="images/Programacion.svg" alt="">
+            </div>
+            <div class="menu">
+                <nav>
+                    <ul>
+                        <li><a href="#">Inicio</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#quality">My Qualitys</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        
+                    </ul>
+                </nav>
+            </div>
         </div>
-    
+
+    </header>
+    <main>
+        <div class="container__cover">
+            <div class="cover">
+                <div class="text">
+                    <h1>Hi,</h1>
+                    <h1>I'm Denis!</h1>
+                    <h1>I'm Developer</I></h1>
+                    <br>
+                    <h4>Get in touch with me:</h4>
+                    <br>
+                    <div class="logo">
+                        <a href="https://github.com/denismembrive">
+                            <img src="images/github_logo.svg" alt="">
+                        </a>
+                        <a href="https://instagram.com/denismembrive?igshid=cmEzZWFvZmcxNWRj">
+                            <img src="images/instagram.svg" alt="">
+                        </a>
+                        
+                        <a href="https://www.linkedin.com/in/denis-membrive-87474a143/">
+                            <img src="images/linkedin_3.svg" alt="">
+                        </a>
+                        <a href="https://www.facebook.com/denis.membrive?mibextid=ZbWKwL">
+                            <img src="images/fb_iconsvg.svg" alt="">
+                        </a>
+                        <a href="https://x.com/denismembrive?t=ww0m_DhHBb8JhMWoYvfUvg&s=08">
+                            <img src="images/x.svg" alt="">
+                        </a>
+                    </div>
+
+                    <a href="#contact" class="container__cover">
+                        <input type="button" value="CONTACT">
+                    </a>
+                </div>
+
+                <div class="svg">
+                    <img src="images/developer_activity.svg" alt="">
+                </div>
+            </div>
+        </div>
+        
+    </main>
+    <section id="about" class="content who">
+        <h2 class="title">ABOUT</h2>
+        <p>
+            Hola, Soy Denis. Soy Desarrollador FULL STACK,
+            profesional y egresado de la Universidad Tecnologica Nacional, 
+            Facultad Regional San Rafael,con mas de 2 años de experiencia 
+            en una amplia gama de Tecnologias.
+            <br>
+            <br>
+            Puedes leer mas sobre mi biografia, experiencia, habilidade,
+            educacion y mucho mas en el pdf que adjunto a continuacion:
+            <br>
+            <a class="pdf" href="../files/Dejan_Markovic_CV.pdf" target="_blank">My resume (pdf 109kb) </a>
+        </p>
+      </section>
+  
+      <section id="projects" class="content services">
+        <h2>PROJECTS</h2>
+        <br>
+        <br>
+        <br>
+        <br>
+        <p>
+          <a href="" target="_blank">
+            <h1>Web Page Las Aucas</h1>
+          </a>
+          <br>
+          <br>
+          <a href="" target="_blank">
+            <h1>Web Page AMEE</h1>
+          </a>
+          <br>
+          <br>
+          <a href="https://github.com/denismembrive?tab=repositories" target="_blank">
+            <h1>Freelancer</h1>
+          </a>
+        </p> 
+      </section>
+
+      <section class="habilidades" id="quality">
+        <div class="contenido-seccion">
+            <h2 class="titulo-seccion">My Qualitys</h2>
+            <br>
+
+            <div class="fila">
+                <div class="col">
+                    <span>HTML/CSS</span>
+                    <div class="cont-barra">
+                        <div class="barra" id="html">
+                            <!-- mediante javascript luego genereremos 17 barritas con clase e -->
+                            
+                        </div>
+                        <span>98%</span>
+                    </div>
+                </div>
+                <div class="col">
+                    <span>JAVASCRIPT</span>
+                    <div class="cont-barra">
+                        <div class="barra" id="javascript">
+                            <!-- mediante javascript luego genereremos 17 barritas con clase e -->
+                           
+                        </div>
+                        <span>70%</span>
+                    </div>
+                </div>
+            </div>
+            <div class="fila">
+                <div class="col">
+                    <span>WORDPRESS</span>
+                    <div class="cont-barra">
+                        <div class="barra" id="wordpress">
+                            <!-- mediante javascript luego genereremos 17 barritas con clase e -->
+                           
+                        </div>
+                        <span>90%</span>
+                    </div>
+                </div>
+                <div class="col">
+                    <span>PHOTOSHOP</span>
+                    <div class="cont-barra">
+                        <div class="barra" id="photoshop">
+                            <!-- mediante javascript luego genereremos 17 barritas con clase e -->
+                           
+                        </div>
+                        <span>85%</span>
+                    </div>
+                </div>
+            </div>
+            <div class="fila">
+                <div class="col">
+                    <span>PHP</span>
+                    <div class="cont-barra">
+                        <div class="barra" id="php">
+                            <!-- mediante javascript luego genereremos 17 barritas con clase e -->
+                           
+                        </div>
+                        <span>95%</span>
+                    </div>
+                </div>
+                <div class="col">
+                    <span>ILUSTRATOR</span>
+                    <div class="cont-barra">
+                        <div class="barra" id="ilustrator">
+                            <!-- mediante javascript luego genereremos 17 barritas con clase e -->
+                           
+                        </div>
+                        <span>75%</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+      <section id="contact" class="content tarifas">
+        <h2>CONTACT</h2>
+        <form id="form" class="topBefore">
+            <input id="name" type="text" placeholder="NAME">
+            <input id="email" type="text" placeholder="E-MAIL">
+            <textarea id="message" type="text" placeholder="MESSAGE"></textarea>
+            <input id="submit" type="submit" value="GO!">
+        </form>
+      </section>
+
+   
 
 
+      
+  
+      
+    <script src="/index.js"></script>
 
-   </section>
-    
-    
+
 </body>
 </html>
