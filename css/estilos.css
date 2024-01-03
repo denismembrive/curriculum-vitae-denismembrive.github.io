@@ -156,17 +156,21 @@ a{
 /*pdf*/
 .pdf{
     text-decoration: none;
+    
 }
 .pdf:hover {
     transition: all .4s cubic-bezier(0.2, 0.6, 0.2, 1);
+    transform: scale(1.15);
 }
 
 /* 3 PARTS OF WEB */
 .content { padding: 80px 0;text-decoration: none; }
 
-.who {background: linear-gradient(to right, #A9DFBF, #196F3D); color: #fff; text-align: center;}
-  .who p { max-width: 1055px; margin: 0 auto;}
-.services {background: linear-gradient(to right, #A9DFBF, #196F3D);color: #fff; text-align: center;text-decoration: none;}
+.who {background: linear-gradient(to right, #A9DFBF, #196F3D); color: #000000; text-align: left; font-size: 40px;}
+  .who p { max-width: 1055px; margin: 0 auto;text-align: left}
+.services {background: linear-gradient(to right, #A9DFBF, #196F3D);color: #000000; text-align: left; font-size: 40px; }
+.services p {max-width: 1055px; margin: 0 auto; text-align: left;}
+
 
 .tarifas {background: linear-gradient(to right, #A9DFBF, #196F3D) no-repeat center top; background-size: cover; color: #fff; text-align: center;}
   .contain {max-width: 1055px; margin: 0 auto;text-align: center;}
@@ -388,9 +392,9 @@ input:hover:focus::-ms-placeholder, textarea:hover::focus:-ms-placeholder {
 }
 .habilidades .contenido-seccion .barra{
     display: flex;
-    border: 1px solid #090201;
+    border: 1px solid #656262;
     padding: 2px;
-    border-radius: 3px;
+    border-radius: 10px;
     margin-right: 10px;
     
 }
@@ -399,6 +403,7 @@ input:hover:focus::-ms-placeholder, textarea:hover::focus:-ms-placeholder {
     width: 20px;
     height: 30px;
     margin-right: 2px;
+    border-radius: 7px;
 }
 
 

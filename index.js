@@ -8,17 +8,17 @@ function crearBarra(id_barra){
 }
 
 //selecciono todas las barras generales par aluego manipularlas
-let html = document.getElementById("html");
+let html = document.getElementById("python");
 crearBarra(html);
-let javascript = document.getElementById("javascript");
+let javascript = document.getElementById("MongoDb");
 crearBarra(javascript);
-let wordpress = document.getElementById("wordpress");
+let wordpress = document.getElementById("javascript");
 crearBarra(wordpress);
-let photoshop = document.getElementById("photoshop");
+let photoshop = document.getElementById("flask");
 crearBarra(photoshop);
-let php = document.getElementById("php");
+let php = document.getElementById("java");
 crearBarra(php);
-let ilustrator = document.getElementById("ilustrator");
+let ilustrator = document.getElementById("html");
 crearBarra(ilustrator);
 
 //Ahora voy a guardar la cantidad de barritas que se van a ir pintando por cada barar
@@ -61,7 +61,7 @@ function pintarBarra(id_barra, cantidad, indice, interval){
     x = contadores[indice];
     if(x < cantidad){
         let elementos = id_barra.getElementsByClassName("e");
-        elementos[x].style.backgroundColor = "#CD5C5C";
+        elementos[x].style.backgroundColor = "#5499C7";
     }else{
         clearInterval(interval)
     }
