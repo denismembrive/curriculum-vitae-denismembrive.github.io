@@ -121,12 +121,13 @@ a{
 }
 
 .container__cover .text input{
+    width: 300px;
     padding: 18px 80px;
     border: none;
     font-size: 16px;
     border-radius: 50px;
     margin-top: 40px;
-    background: linear-gradient(to right, #7DCEA0, #52BE80);
+    background: linear-gradient(to right, #7DCEA0, #196F3D);
     color: #fff;
     cursor: pointer;
     box-shadow: 1px 1px 30px -12px #f54d4d;
@@ -203,25 +204,25 @@ a{
 @import url(https://fonts.googleapis.com/css?family=Lato:100,300,400);
 
 input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
-  color: #aca49c;
+  color: #000000;
   font-size: 0.875em;
 }
 
 input:focus::-webkit-input-placeholder, textarea:focus::-webkit-input-placeholder {
-  color: #bbb5af;
+  color: #000000;
 }
 
 input::-moz-placeholder, textarea::-moz-placeholder {
-  color: #aca49c;
+  color: #000000;
   font-size: 0.875em;
 }
 
 input:focus::-moz-placeholder, textarea:focus::-moz-placeholder {
-  color: #bbb5af;
+  color: #000000;
 }
 
 input::placeholder, textarea::placeholder {
-  color: #aca49c;
+  color: #000000;
   font-size: 0.875em;
 }
 
@@ -278,22 +279,22 @@ input:hover:focus::-ms-placeholder, textarea:hover::focus:-ms-placeholder {
 
 #form {
     position: relative;
-    width: 500px;
+    width: 800px;
     margin: 50px auto 100px auto;
   }
   
   input {
     font-family: 'Lato', sans-serif;
     font-size: 0.875em;
-    width: 470px;
+    width: 800px;
     height: 50px;
     padding: 0px 15px 0px 15px;
     
     background: transparent;
     outline: none;
-    color: #725969;
+    color: #000000;
     
-    border: solid 1px #b3aca7;
+    border: solid 1px #000000;
     border-bottom: none;
     
     transition: all 0.3s ease-in-out;
@@ -308,20 +309,18 @@ input:hover:focus::-ms-placeholder, textarea:hover::focus:-ms-placeholder {
   }
   
   textarea {
-    width: 470px;
-    max-width: 470px;
+    width: 800px;
     height: 110px;
-    max-height: 110px;
-    padding: 15px;
+    
     
     background: transparent;
     outline: none;
     
-    color: #726659;
+    color: #000000;
     font-family: 'Lato', sans-serif;
     font-size: 0.875em;
     
-    border: solid 1px #b3aca7;
+    border: solid 1px #000000;
     
     transition: all 0.3s ease-in-out;
     -webkit-transition: all 0.3s ease-in-out;
@@ -335,78 +334,25 @@ input:hover:focus::-ms-placeholder, textarea:hover::focus:-ms-placeholder {
   }
   
   #submit {
-    width: 502px;
+    width: 800px;
     
     padding: 0;
     margin: -5px 0px 0px 0px;
     
     font-family: 'Lato', sans-serif;
     font-size: 0.875em;
-    color: #b3aca7;
+    color: #000000;
     
     outline:none;
     cursor: pointer;
     
-    border: solid 1px #b3aca7;
+    border: solid 1px #000000;
     border-top: none;
   }
   
   #submit:hover {
     color: #e2dedb;
   }
-
-
-
-  
-/* SECCION HABILIDADES */
-.habilidades{
-    padding: 80px 0 100px 0;
-    text-align: center;
-    background: linear-gradient(to right, #A9DFBF, #196F3D);
-    
-}
-.habilidades .contenido-seccion{
-    max-width: 1000px;
-    margin: auto;
-    padding: 0 10px;
-}
-.habilidades .contenido-seccion h3{
-    text-transform: uppercase;
-    font-size: 30px;
-    font-family: 'Source Sans Pro', sans-serif;
-}
-.habilidades .contenido-seccion .fila{
-    display: flex;
-    justify-content: space-between;
-    margin-top: 30px;
-    
-}
-.habilidades .contenido-seccion .fila .col{
-    width: 47%;
-    text-align: left;
-    
-}
-.habilidades .contenido-seccion .fila .col .cont-barra{
-    display: flex;
-    align-items: center;
-}
-.habilidades .contenido-seccion .barra{
-    display: flex;
-    border: 1px solid #656262;
-    padding: 2px;
-    border-radius: 10px;
-    margin-right: 10px;
-    
-}
-.habilidades .contenido-seccion .barra .e{
-    background-color: #363636;
-    width: 20px;
-    height: 30px;
-    margin-right: 2px;
-    border-radius: 7px;
-}
-
-
 
 
 @media (max-width: 1200px) { 
@@ -431,9 +377,15 @@ input:hover:focus::-ms-placeholder, textarea:hover::focus:-ms-placeholder {
   body{
     font-size: 12px;
   }
+  
+    
+}
+  
+
+  
 
 
- }
+ 
 
 
 
